@@ -18,6 +18,7 @@ public class CCuenta {
                   asignarNombre(nombre);
                   asignarCuenta(cuenta);
                   ingreso(saldo);
+                  asignarTipoInteres(tipo);
          }//Fin Constructor
          
          //Metodos propios 
