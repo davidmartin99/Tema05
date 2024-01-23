@@ -77,4 +77,9 @@ public class CCuenta {
                   return tipoDeInteres;
          }
          
+         @Override
+         public String toString(){
+                  return "Informacion de la cuenta: \n"+"Titular: "+obtenerNombre()+"\nNumero Cuenta: "+obtenerCuenta()+"\nInteres: "+obtenerTipoInteres()+"Saldo: "+estado();
+         }
+         
 }

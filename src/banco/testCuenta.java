@@ -23,8 +23,12 @@ public class testCuenta {
                   //Comprobamos que salta la Excepcion
                   cuenta01.reintegro(2500);
                   System.out.println("Cuenta01 saldo: "+cuenta01.estado());
-                  cuenta01.reintegro(2500);
+                  cuenta01.reintegro(250); //Cambiamos a 600 para que de error (el saldo insuficiente)
                   System.out.println("Cuenta01 saldo: " + cuenta01.estado());
+                  
+                  //con @Override
+                  System.out.println("--------------------");
+                  System.out.println(cuenta01.toString());
                   
          }
 }
