@@ -6,7 +6,7 @@ package tema05;
 
 /**
  *
- * @author alumno
+ * @author david
  */
 public class Tema05 {
 

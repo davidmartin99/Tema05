@@ -11,7 +11,7 @@ public class Individuo {
     private String dni, nombre;
     private int fechaNacimiento;
     private static int poblacion; //static para que pueda ir cambiando 
-    private static int aÃ±oActual = 2024;
+    private static int añoActual = 2024;
     private int edad;
     private double altura;
     
@@ -32,7 +32,7 @@ public class Individuo {
         this.nombre = nombre;
         this.fechaNacimiento = fechaNacimiento;
         this.altura = altura;
-        edad = aÃ±oActual - fechaNacimiento;
+        edad = añoActual - fechaNacimiento;
         poblacion++; //Se asume que partira de valor 0
     }//Fin Metodo Constructor 2
     
